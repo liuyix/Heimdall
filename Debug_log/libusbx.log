@@ -1,0 +1,285 @@
+D:\Dev\Heimdall-1.4.0\Win32\Debug>heimdall.exe print-pit --verbose --no-reboot --stdout-errors --usb-log-level debug
+Heimdall v1.4.0
+
+Copyright (c) 2010-2013, Benjamin Dobell, Glass Echidna
+http://www.glassechidna.com.au/
+
+This software is provided free of charge. Copying and redistribution is
+encouraged.
+
+If you appreciate this software and you would like to support future
+development please consider donating:
+http://www.glassechidna.com.au/donate/
+
+Initialising connection...
+Detecting device...
+[timestamp] [threadID] facility level [function call] <message>
+--------------------------------------------------------------------------------
+[ 0.015000] [00000ef4] libusbx: debug [windows_clock_gettime_threaded] hires timer available (Frequency: 3117207 Hz)
+[ 0.022000] [0000150c] libusbx: debug [libusb_get_device_list]
+[ 0.047000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [EC]
+[ 0.051000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [1F4]
+[ 0.055000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [23A]
+[ 0.060000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [342]
+[ 0.066000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [50]
+[ 0.073000] [0000150c] libusbx: debug [get_api_type] driver(s): usbhub
+[ 0.082000] [0000150c] libusbx: debug [get_api_type] matched driver name against HUB API API
+[ 0.086000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [2E9]
+[ 0.092000] [0000150c] libusbx: debug [get_api_type] driver(s): usbhub
+[ 0.098000] [0000150c] libusbx: debug [get_api_type] matched driver name against HUB API API
+[ 0.101000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [2EF]
+[ 0.105000] [0000150c] libusbx: debug [get_api_type] driver(s): usbhub
+[ 0.109000] [0000150c] libusbx: debug [get_api_type] matched driver name against HUB API API
+[ 0.112000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [F5]
+[ 0.116000] [0000150c] libusbx: debug [get_api_type] driver(s): usbhub
+[ 0.120000] [0000150c] libusbx: debug [get_api_type] matched driver name against HUB API API
+[ 0.123000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [168]
+[ 0.127000] [0000150c] libusbx: debug [get_api_type] driver(s): usbhub
+[ 0.131000] [0000150c] libusbx: debug [get_api_type] matched driver name against HUB API API
+[ 0.134000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [380]
+[ 0.140000] [0000150c] libusbx: debug [windows_get_device_list] found existing device for session [2E9] (0.0)
+[ 0.143000] [0000150c] libusbx: debug [init_device] (bus: 1, addr: 1, depth: 0, port: 0): '\\.\USB#ROOT_HUB#4&20FED66E&0'
+[ 0.147000] [0000150c] libusbx: debug [windows_get_device_list] found existing device for session [2EF] (0.0)
+[ 0.150000] [0000150c] libusbx: debug [init_device] (bus: 4, addr: 1, depth: 0, port: 0): '\\.\USB#ROOT_HUB#4&3234E7B1&0'
+[ 0.154000] [0000150c] libusbx: debug [windows_get_device_list] found existing device for session [F5] (0.0)
+[ 0.158000] [0000150c] libusbx: debug [init_device] (bus: 3, addr: 1, depth: 0, port: 0): '\\.\USB#ROOT_HUB#4&58B71C7&0'
+[ 0.162000] [0000150c] libusbx: debug [windows_get_device_list] found existing device for session [168] (0.0)
+[ 0.165000] [0000150c] libusbx: debug [init_device] (bus: 2, addr: 1, depth: 0, port: 0): '\\.\USB#ROOT_HUB#4&B8F8DFB&0'
+[ 0.169000] [0000150c] libusbx: debug [windows_get_device_list] found existing device for session [380] (0.0)
+[ 0.172000] [0000150c] libusbx: debug [init_device] (bus: 5, addr: 1, depth: 0, port: 0): '\\.\USB#ROOT_HUB20#4&1957E726&0'
+[ 0.177000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [1D3]
+[ 0.181000] [0000150c] libusbx: debug [init_device] found 1 configurations (active conf: 1)
+[ 0.216000] [0000150c] libusbx: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 34 bytes)
+[ 0.218000] [0000150c] libusbx: debug [init_device] (bus: 1, addr: 2, depth: 1, port: 1): '\\.\USB#VID_046A&PID_0011#5&B9FD9BE&0&1'
+[ 0.222000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [2A1]
+[ 0.225000] [0000150c] libusbx: debug [init_device] found 1 configurations (active conf: 1)
+[ 0.241000] [0000150c] libusbx: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 34 bytes)
+[ 0.243000] [0000150c] libusbx: debug [init_device] (bus: 3, addr: 2, depth: 1, port: 2): '\\.\USB#VID_046D&PID_C05A#5&14FCBFE8&0&2'
+[ 0.247000] [0000150c] libusbx: debug [windows_get_device_list] extra GUID: {1662AFAD-DCF9-4865-B917-911D477D679D}
+[ 0.251000] [0000150c] libusbx: debug [windows_get_device_list] allocating new device for session [6B]
+[ 0.255000] [0000150c] libusbx: debug [init_device] found 1 configurations (active conf: 1)
+[ 0.259000] [0000150c] libusbx: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 67 bytes)
+[ 0.263000] [0000150c] libusbx: debug [init_device] (bus: 5, addr: 2, depth: 1, port: 8): '\\.\USB#VID_04E8&PID_685D#00000000000000/0'
+[ 0.268000] [0000150c] libusbx: debug [get_api_type] driver(s): HidUsb
+[ 0.274000] [0000150c] libusbx: debug [get_api_type] matched driver name against HID API API
+[ 0.278000] [0000150c] libusbx: debug [windows_get_device_list] found existing device for session [1D3] (1.2)
+[ 0.285000] [0000150c] libusbx: debug [get_api_type] driver(s): HidUsb
+[ 0.291000] [0000150c] libusbx: debug [get_api_type] matched driver name against HID API API
+[ 0.295000] [0000150c] libusbx: debug [windows_get_device_list] found existing device for session [2A1] (3.2)
+[ 0.299000] [0000150c] libusbx: debug [get_api_type] driver(s): WinUSB
+[ 0.303000] [0000150c] libusbx: debug [get_api_type] matched driver name against WinUSB API
+[ 0.308000] [0000150c] libusbx: debug [windows_get_device_list] found existing device for session [6B] (5.2)
+[ 0.313000] [0000150c] libusbx: debug [windows_get_device_list] setting HID interface for [1D3]:
+[ 0.317000] [0000150c] libusbx: debug [set_hid_interface] interface[0] = \\.\HID#VID_046A&PID_0011#6&32F76A19&0&0000#{4D1E55B2-F16F-11CF-
+[ 0.321000] [0000150c] libusbx: debug [windows_get_device_list] setting HID interface for [2A1]:
+[ 0.325000] [0000150c] libusbx: debug [set_hid_interface] interface[0] = \\.\HID#VID_046D&PID_C05A#6&1ED4EBE0&0&0000#{4D1E55B2-F16F-11CF-
+[ 0.331000] [0000150c] libusbx: debug [get_api_type] driver(s): WinUSB
+[ 0.335000] [0000150c] libusbx: debug [get_api_type] matched driver name against WinUSB API
+[ 0.340000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 1.0
+[ 0.344000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 2.0
+[ 0.348000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 3.0
+[ 0.353000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 4.0
+[ 0.356000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 5.0
+[ 0.362000] [0000150c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.366000] [0000150c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.370000] [0000150c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.374000] [0000150c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.379000] [0000150c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.383000] [0000150c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.387000] [0000150c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.392000] [0000150c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.396000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 1.1
+[ 0.399000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 4.1
+[ 0.404000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 3.1
+[ 0.408000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 2.1
+[ 0.412000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 5.1
+[ 0.416000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 1.2
+[ 0.420000] [0000150c] libusbx: debug [libusb_unref_device] destroy device 3.2
+[ 0.424000] [0000150c] libusbx: debug [libusb_open] open 5.2
+[ 0.429000] [0000150c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.433000] [0000150c] libusbx: debug [libusb_claim_interface] interface 0
+[ 0.438000] [0000150c] libusbx: debug [winusbx_claim_interface] claimed interface 0
+[ 0.442000] [0000150c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.447000] [0000150c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 83 to interface 0
+[ 0.452000] [0000150c] libusbx: debug [auto_claim] auto-claimed interface 0 for control request
+[ 0.458000] [0000150c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.465000] [0000150c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.471000] [0000150c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.962788s
+[ 0.475000] [0000150c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.481000] [0000150c] libusbx: debug [handle_events] poll() 2 fds with timeout in 963ms
+[ 0.492000] [0000150c] libusbx: debug [handle_events] poll() returned 1
+[ 0.507000] [0000150c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.515000] [0000150c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.521000] [0000150c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.525000] [0000150c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 10
+[ 0.530000] [0000150c] libusbx: debug [libusb_release_interface] interface 0
+[ 0.536000] [0000150c] libusbx: debug [auto_release] auto-released interface 0
+[ 0.540000] [0000150c] libusbx: debug [usbi_handle_transfer_completion] transfer 001CECC0 has callback 6F968DB0
+[ 0.546000] [0000150c] libusbx: debug [ctrl_transfer_cb] actual_length=10
+[ 0.552000] [0000150c] libusbx: debug [libusb_claim_interface] interface 0
+[ 0.556000] [0000150c] libusbx: debug [winusbx_claim_interface] claimed interface 0
+[ 0.561000] [0000150c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.567000] [0000150c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 83 to interface 0
+[ 0.572000] [0000150c] libusbx: debug [auto_claim] auto-claimed interface 0 for control request
+[ 0.576000] [0000150c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.580000] [0000150c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.584000] [0000150c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.968561s
+[ 0.587000] [0000150c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.590000] [0000150c] libusbx: debug [handle_events] poll() 2 fds with timeout in 969ms
+[ 0.593000] [0000150c] libusbx: debug [handle_events] poll() returned 1
+[ 0.597000] [0000150c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.599000] [0000150c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.603000] [0000150c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.607000] [0000150c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 40
+[ 0.610000] [0000150c] libusbx: debug [libusb_release_interface] interface 0
+[ 0.614000] [0000150c] libusbx: debug [auto_release] auto-released interface 0
+[ 0.616000] [0000150c] libusbx: debug [usbi_handle_transfer_completion] transfer 001CECC0 has callback 6F968DB0
+[ 0.620000] [0000150c] libusbx: debug [ctrl_transfer_cb] actual_length=40
+      Manufacturer: "Samsung Electronics"
+[ 0.627000] [0000150c] libusbx: debug [libusb_claim_interface] interface 0
+[ 0.631000] [0000150c] libusbx: debug [winusbx_claim_interface] claimed interface 0
+[ 0.634000] [0000150c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.637000] [0000150c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 83 to interface 0
+[ 0.640000] [0000150c] libusbx: debug [auto_claim] auto-claimed interface 0 for control request
+[ 0.644000] [0000150c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.647000] [0000150c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.653000] [0000150c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.974336s
+[ 0.657000] [0000150c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.661000] [0000150c] libusbx: debug [handle_events] poll() 2 fds with timeout in 975ms
+[ 0.664000] [0000150c] libusbx: debug [handle_events] poll() returned 1
+[ 0.667000] [0000150c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.670000] [0000150c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.673000] [0000150c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.677000] [0000150c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 10
+[ 0.681000] [0000150c] libusbx: debug [libusb_release_interface] interface 0
+[ 0.685000] [0000150c] libusbx: debug [auto_release] auto-released interface 0
+[ 0.688000] [0000150c] libusbx: debug [usbi_handle_transfer_completion] transfer 001CECC0 has callback 6F968DB0
+[ 0.691000] [0000150c] libusbx: debug [ctrl_transfer_cb] actual_length=10
+[ 0.694000] [0000150c] libusbx: debug [libusb_claim_interface] interface 0
+[ 0.698000] [0000150c] libusbx: debug [winusbx_claim_interface] claimed interface 0
+[ 0.702000] [0000150c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.705000] [0000150c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 83 to interface 0
+[ 0.709000] [0000150c] libusbx: debug [auto_claim] auto-claimed interface 0 for control request
+[ 0.712000] [0000150c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.716000] [0000150c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.719000] [0000150c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.974977s
+[ 0.722000] [0000150c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.725000] [0000150c] libusbx: debug [handle_events] poll() 2 fds with timeout in 975ms
+[ 0.728000] [0000150c] libusbx: debug [handle_events] poll() returned 1
+[ 0.732000] [0000150c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.737000] [0000150c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.740000] [0000150c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.743000] [0000150c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 42
+[ 0.746000] [0000150c] libusbx: debug [libusb_release_interface] interface 0
+[ 0.750000] [0000150c] libusbx: debug [auto_release] auto-released interface 0
+[ 0.753000] [0000150c] libusbx: debug [usbi_handle_transfer_completion] transfer 001CECC0 has callback 6F968DB0
+[ 0.756000] [0000150c] libusbx: debug [ctrl_transfer_cb] actual_length=42
+           Product: "Mobile USB Modem 1.0"
+[ 0.762000] [0000150c] libusbx: debug [libusb_claim_interface] interface 0
+[ 0.766000] [0000150c] libusbx: debug [winusbx_claim_interface] claimed interface 0
+[ 0.769000] [0000150c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.772000] [0000150c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 83 to interface 0
+[ 0.776000] [0000150c] libusbx: debug [auto_claim] auto-claimed interface 0 for control request
+[ 0.779000] [0000150c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.784000] [0000150c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.787000] [0000150c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.975298s
+[ 0.790000] [0000150c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.794000] [0000150c] libusbx: debug [handle_events] poll() 2 fds with timeout in 976ms
+[ 0.796000] [0000150c] libusbx: debug [handle_events] poll() returned 1
+[ 0.800000] [0000150c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.803000] [0000150c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.807000] [0000150c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.810000] [0000150c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 10
+[ 0.813000] [0000150c] libusbx: debug [libusb_release_interface] interface 0
+[ 0.816000] [0000150c] libusbx: debug [auto_release] auto-released interface 0
+[ 0.820000] [0000150c] libusbx: debug [usbi_handle_transfer_completion] transfer 001CECC0 has callback 6F968DB0
+[ 0.823000] [0000150c] libusbx: debug [ctrl_transfer_cb] actual_length=10
+[ 0.826000] [0000150c] libusbx: debug [libusb_claim_interface] interface 0
+[ 0.829000] [0000150c] libusbx: debug [winusbx_claim_interface] claimed interface 0
+[ 0.832000] [0000150c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.835000] [0000150c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 83 to interface 0
+[ 0.839000] [0000150c] libusbx: debug [auto_claim] auto-claimed interface 0 for control request
+[ 0.842000] [0000150c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.846000] [0000150c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.850000] [0000150c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.975940s
+[ 0.853000] [0000150c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.856000] [0000150c] libusbx: debug [handle_events] poll() 2 fds with timeout in 976ms
+[ 0.860000] [0000150c] libusbx: debug [handle_events] poll() returned 1
+[ 0.863000] [0000150c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.866000] [0000150c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.869000] [0000150c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.873000] [0000150c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 34
+[ 0.877000] [0000150c] libusbx: debug [libusb_release_interface] interface 0
+[ 0.880000] [0000150c] libusbx: debug [auto_release] auto-released interface 0
+[ 0.883000] [0000150c] libusbx: debug [usbi_handle_transfer_completion] transfer 001CECC0 has callback 6F968DB0
+[ 0.886000] [0000150c] libusbx: debug [ctrl_transfer_cb] actual_length=34
+         Serial No: "00000000000000/0"
+
+            length: 18
+      device class: 2
+               S/N: 3
+           VID:PID: 04E8:685D
+         bcdDevice: 0001
+   iMan:iProd:iSer: 2:1:3
+          nb confs: 1
+[ 0.917000] [0000150c] libusbx: debug [libusb_get_config_descriptor] index 0
+
+interface[0].altsetting[0]: num endpoints = 1
+   Class.SubClass.Protocol: 02.02.01
+       endpoint[0].address: 83
+           max packet size: 0040
+          polling interval: 05
+
+interface[1].altsetting[0]: num endpoints = 2
+   Class.SubClass.Protocol: 0A.00.00
+       endpoint[0].address: 81
+           max packet size: 0200
+          polling interval: 20
+       endpoint[1].address: 02
+           max packet size: 0200
+          polling interval: 20
+Claiming interface...
+[ 0.970000] [0000150c] libusbx: debug [libusb_claim_interface] interface 1
+[ 0.974000] [0000150c] libusbx: warning [winusbx_claim_interface] auto-claimed interface 0 (required to claim 1 with WinUSB)
+[ 0.977000] [0000150c] libusbx: debug [winusbx_claim_interface] claimed interface 1
+[ 0.981000] [0000150c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.984000] [0000150c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 81 to interface 1
+[ 0.988000] [0000150c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 02 to interface 1
+[ 0.992000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to set PIPE_TRANSFER_TIMEOUT for control endpoint 81
+[ 0.996000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to disable SHORT_PACKET_TERMINATE for endpoint 81
+[ 0.999000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to disable IGNORE_SHORT_PACKETS for endpoint 81
+[ 1.003000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to enable ALLOW_PARTIAL_READS for endpoint 81
+[ 1.008000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to enable AUTO_CLEAR_STALL for endpoint 81
+[ 1.012000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to set PIPE_TRANSFER_TIMEOUT for control endpoint 02
+[ 1.016000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to disable SHORT_PACKET_TERMINATE for endpoint 02
+[ 1.019000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to disable IGNORE_SHORT_PACKETS for endpoint 02
+[ 1.022000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to enable ALLOW_PARTIAL_READS for endpoint 02
+[ 1.028000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to enable AUTO_CLEAR_STALL for endpoint 02
+Setting up interface...
+[ 1.035000] [0000150c] libusbx: debug [libusb_set_interface_alt_setting] interface 1 altsetting 0
+[ 1.039000] [0000150c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 1.042000] [0000150c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 81 to interface 1
+[ 1.048000] [0000150c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 02 to interface 1
+[ 1.054000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to set PIPE_TRANSFER_TIMEOUT for control endpoint 81
+[ 1.059000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to disable SHORT_PACKET_TERMINATE for endpoint 81
+[ 1.064000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to disable IGNORE_SHORT_PACKETS for endpoint 81
+[ 1.068000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to enable ALLOW_PARTIAL_READS for endpoint 81
+[ 1.072000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to enable AUTO_CLEAR_STALL for endpoint 81
+[ 1.076000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to set PIPE_TRANSFER_TIMEOUT for control endpoint 02
+[ 1.079000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to disable SHORT_PACKET_TERMINATE for endpoint 02
+[ 1.083000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to disable IGNORE_SHORT_PACKETS for endpoint 02
+[ 1.087000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to enable ALLOW_PARTIAL_READS for endpoint 02
+[ 1.090000] [0000150c] libusbx: debug [winusbx_configure_endpoints] failed to enable AUTO_CLEAR_STALL for endpoint 02
+
+Initialising protocol...
+[ 1.101000] [0000150c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 1.105000] [0000150c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 1.109000] [0000150c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.992301s
+[ 1.113000] [0000150c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 1.117000] [0000150c] libusbx: debug [handle_events] poll() 2 fds with timeout in 993ms
+[ 2.113000] [0000150c] libusbx: debug [handle_events] poll() returned 0
+[ 2.115000] [0000150c] libusbx: debug [libusb_cancel_transfer]
+[ 2.119000] [0000150c] libusbx: debug [libusb_get_next_timeout] no URB with timeout or all handled by OS; no timeout!
+[ 2.123000] [0000150c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 2.126000] [0000150c] libusbx: debug [handle_events] poll() 2 fds with timeout in 60000ms
+^C

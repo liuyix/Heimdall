@@ -1,0 +1,1269 @@
+liuyi@Liuyix /cygdrive/d/Dev/Heimdall-1.4.0/Win32/Debug
+$ ./heimdall.exe print-pit --verbose --no-reboot --stdout-errors --usb-log-level debug
+Heimdall v1.4.0
+
+Copyright (c) 2010-2013, Benjamin Dobell, Glass Echidna
+http://www.glassechidna.com.au/
+
+This software is provided free of charge. Copying and redistribution is
+encouraged.
+
+If you appreciate this software and you would like to support future
+development please consider donating:
+http://www.glassechidna.com.au/donate/
+
+Initialising connection...
+Detecting device...
+[timestamp] [threadID] facility level [function call] <message>
+--------------------------------------------------------------------------------
+[ 0.016000] [0000168c] libusbx: debug [libusb_get_device_list]
+[ 0.020000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [EC]
+[ 0.020000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [1F4]
+[ 0.020000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [23A]
+[ 0.020000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [342]
+[ 0.021000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [50]
+[ 0.025000] [0000168c] libusbx: debug [get_api_type] driver(s): usbhub
+[ 0.025000] [0000168c] libusbx: debug [get_api_type] matched driver name against HUB API API
+[ 0.025000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [2E9]
+[ 0.027000] [0000168c] libusbx: debug [get_api_type] driver(s): usbhub
+[ 0.027000] [0000168c] libusbx: debug [get_api_type] matched driver name against HUB API API
+[ 0.027000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [2EF]
+[ 0.028000] [0000168c] libusbx: debug [get_api_type] driver(s): usbhub
+[ 0.028000] [0000168c] libusbx: debug [get_api_type] matched driver name against HUB API API
+[ 0.028000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [F5]
+[ 0.029000] [0000168c] libusbx: debug [get_api_type] driver(s): usbhub
+[ 0.029000] [0000168c] libusbx: debug [get_api_type] matched driver name against HUB API API
+[ 0.029000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [168]
+[ 0.030000] [0000168c] libusbx: debug [get_api_type] driver(s): usbhub
+[ 0.030000] [0000168c] libusbx: debug [get_api_type] matched driver name against HUB API API
+[ 0.030000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [380]
+[ 0.032000] [0000168c] libusbx: debug [windows_get_device_list] found existing device for session [2E9] (0.0)
+[ 0.032000] [0000168c] libusbx: debug [init_device] (bus: 1, addr: 1, depth: 0, port: 0): '\\.\USB#ROOT_HUB#4&20FED66E&0'
+[ 0.033000] [0000168c] libusbx: debug [windows_get_device_list] found existing device for session [2EF] (0.0)
+[ 0.033000] [0000168c] libusbx: debug [init_device] (bus: 4, addr: 1, depth: 0, port: 0): '\\.\USB#ROOT_HUB#4&3234E7B1&0'
+[ 0.033000] [0000168c] libusbx: debug [windows_get_device_list] found existing device for session [F5] (0.0)
+[ 0.033000] [0000168c] libusbx: debug [init_device] (bus: 3, addr: 1, depth: 0, port: 0): '\\.\USB#ROOT_HUB#4&58B71C7&0'
+[ 0.033000] [0000168c] libusbx: debug [windows_get_device_list] found existing device for session [168] (0.0)
+[ 0.033000] [0000168c] libusbx: debug [init_device] (bus: 2, addr: 1, depth: 0, port: 0): '\\.\USB#ROOT_HUB#4&B8F8DFB&0'
+[ 0.034000] [0000168c] libusbx: debug [windows_get_device_list] found existing device for session [380] (0.0)
+[ 0.034000] [0000168c] libusbx: debug [init_device] (bus: 5, addr: 1, depth: 0, port: 0): '\\.\USB#ROOT_HUB20#4&1957E726&0'
+[ 0.034000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [1D3]
+[ 0.034000] [0000168c] libusbx: debug [init_device] found 1 configurations (active conf: 1)
+[ 0.039000] [000011ec] libusbx: debug [windows_clock_gettime_threaded] hires timer available (Frequency: 3117207 Hz)
+[ 0.066000] [0000168c] libusbx: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 34 bytes)
+[ 0.066000] [0000168c] libusbx: error [init_device] program assertion failed: device address collision with root hub
+[ 0.066000] [0000168c] libusbx: debug [init_device] (bus: 1, addr: 1, depth: 1, port: 1): '\\.\USB#VID_046A&PID_0011#5&B9FD9BE&0&1'
+[ 0.066000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [2A1]
+[ 0.066000] [0000168c] libusbx: debug [init_device] found 1 configurations (active conf: 1)
+[ 0.084000] [0000168c] libusbx: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 34 bytes)
+[ 0.084000] [0000168c] libusbx: error [init_device] program assertion failed: device address collision with root hub
+[ 0.084000] [0000168c] libusbx: debug [init_device] (bus: 3, addr: 1, depth: 1, port: 2): '\\.\USB#VID_046D&PID_C05A#5&14FCBFE8&0&2'
+[ 0.085000] [0000168c] libusbx: debug [windows_get_device_list] extra GUID: {57E4E96E-D7A1-4D7F-933F-1F88954BC58B}
+[ 0.085000] [0000168c] libusbx: debug [windows_get_device_list] allocating new device for session [332]
+[ 0.085000] [0000168c] libusbx: debug [init_device] found 1 configurations (active conf: 1)
+[ 0.087000] [0000168c] libusbx: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 67 bytes)
+[ 0.087000] [0000168c] libusbx: error [init_device] program assertion failed: device address collision with root hub
+[ 0.087000] [0000168c] libusbx: debug [init_device] (bus: 5, addr: 1, depth: 1, port: 8): '\\.\USB#VID_04E8&PID_685D#5&136F0554&0&8'
+[ 0.090000] [0000168c] libusbx: debug [get_api_type] driver(s): HidUsb
+[ 0.090000] [0000168c] libusbx: debug [get_api_type] matched driver name against HID API API
+[ 0.090000] [0000168c] libusbx: debug [windows_get_device_list] found existing device for session [1D3] (1.1)
+[ 0.090000] [0000168c] libusbx: debug [get_api_type] driver(s): HidUsb
+[ 0.091000] [0000168c] libusbx: debug [get_api_type] matched driver name against HID API API
+[ 0.091000] [0000168c] libusbx: debug [windows_get_device_list] found existing device for session [2A1] (3.1)
+[ 0.091000] [0000168c] libusbx: debug [get_api_type] driver(s): WinUSB
+[ 0.091000] [0000168c] libusbx: debug [get_api_type] matched driver name against WinUSB API
+[ 0.091000] [0000168c] libusbx: debug [windows_get_device_list] found existing device for session [332] (5.1)
+[ 0.092000] [0000168c] libusbx: debug [windows_get_device_list] setting HID interface for [1D3]:
+[ 0.092000] [0000168c] libusbx: debug [set_hid_interface] interface[0] = \\.\HID#VID_046A&PID_0011#6&32F76A19&0&0000#{4D1E55B2-F16F-11CF-88CB-001111000030}
+[ 0.092000] [0000168c] libusbx: debug [windows_get_device_list] setting HID interface for [2A1]:
+[ 0.092000] [0000168c] libusbx: debug [set_hid_interface] interface[0] = \\.\HID#VID_046D&PID_C05A#6&1ED4EBE0&0&0000#{4D1E55B2-F16F-11CF-88CB-001111000030}
+[ 0.093000] [0000168c] libusbx: debug [get_api_type] driver(s): WinUSB
+[ 0.093000] [0000168c] libusbx: debug [get_api_type] matched driver name against WinUSB API
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 1.0
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 2.0
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 3.0
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 4.0
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 5.0
+[ 0.093000] [0000168c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.093000] [0000168c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.093000] [0000168c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.093000] [0000168c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.093000] [0000168c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.093000] [0000168c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.093000] [0000168c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.093000] [0000168c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 1.1
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 4.1
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 3.1
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 2.1
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 5.1
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 1.1
+[ 0.093000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 3.1
+[ 0.093000] [0000168c]      Manufacturer: "SAMSUNG"
+ libusbx: debug [libusb_open] open 5.1
+[ 0.093000] [0000168c] libusbx: debug [libusb_get_device_descriptor]
+[ 0.094000] [0000168c] libusbx: debug [libusb_claim_interface] interface 0
+[ 0.094000] [0000168c] libusbx: debug [winusbx_claim_interface] claimed interface 0
+[ 0.094000] [0000168c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.094000] [0000168c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 83 to interface 0
+[ 0.094000] [0000168c] libusbx: debug [auto_claim] auto-claimed interface 0 for control request
+[ 0.094000] [0000168c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.094000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.094000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.999358s
+[ 0.094000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.094000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.094000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.094000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.094000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.094000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.094000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 4
+[ 0.094000] [0000168c] libusbx: debug [libusb_release_interface] interface 0
+[ 0.094000] [0000168c] libusbx: debug [auto_release] auto-released interface 0
+[ 0.094000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D68DB0
+[ 0.094000] [0000168c] libusbx: debug [ctrl_transfer_cb] actual_length=4
+[ 0.095000] [0000168c] libusbx: debug [libusb_claim_interface] interface 0
+[ 0.095000] [0000168c] libusbx: debug [winusbx_claim_interface] claimed interface 0
+[ 0.095000] [0000168c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.095000] [0000168c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 83 to interface 0
+[ 0.095000] [0000168c] libusbx: debug [auto_claim] auto-claimed interface 0 for control request
+[ 0.095000] [0000168c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.095000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.095000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.999038s
+[ 0.095000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.095000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.095000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.095000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.095000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.095000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.095000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 16
+[ 0.095000] [0000168c] libusbx: debug [libusb_release_interface] interface 0
+[ 0.095000] [0000168c] libusbx: debug [auto_release] auto-released interface 0
+[ 0.096000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D68DB0
+[ 0.096000] [0000168c] libusbx: debug [ctrl_transfer_cb] actual_length=16
+[ 0.096000] [0000168c] libusbx: debug [libusb_claim_interface] interface 0
+[ 0.096000] [0000168c] libusbx: debug [winusbx_claim_interface] claimed interface 0
+[ 0.096000] [0000168c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.096000] [0000168c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 83 to interface 0
+[ 0.096000] [0000168c] libusbx: debug [auto_claim] auto-claimed interface 0 for control request
+[ 0.096000] [0000168c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.096000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.096000] [000016           Product: "Gadget Serial"
+
+            length: 18
+      device class: 2
+               S/N: 0
+           VID:PID: 04E8:685D
+         bcdDevice: 021B
+   iMan:iProd:iSer: 1:2:0
+          nb confs: 1
+
+interface[0].altsetting[0]: num endpoints = 1
+   Class.SubClass.Protocol: 02.02.01
+       endpoint[0].address: 83
+           max packet size: 0010
+          polling interval: 09
+
+interface[1].altsetting[0]: num endpoints = 2
+   Class.SubClass.Protocol: 0A.00.00
+       endpoint[0].address: 81
+           max packet size: 0200
+          polling interval: 00
+       endpoint[1].address: 02
+           max packet size: 0200
+          polling interval: 00
+Claiming interface...
+8c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.999679s
+[ 0.096000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.096000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.096000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.096000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.096000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.096000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.096000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 4
+[ 0.096000] [0000168c] libusbx: debug [libusb_release_interface] interface 0
+[ 0.096000] [0000168c] libusbx: debug [auto_release] auto-released interface 0
+[ 0.096000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D68DB0
+[ 0.096000] [0000168c] libusbx: debug [ctrl_transfer_cb] actual_length=4
+[ 0.096000] [0000168c] libusbx: debug [libusb_claim_interface] interface 0
+[ 0.096000] [0000168c] libusbx: debug [winusbx_claim_interface] claimed interface 0
+[ 0.096000] [0000168c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.096000] [0000168c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 83 to interface 0
+[ 0.096000] [0000168c] libusbx: debug [auto_claim] auto-claimed interface 0 for control request
+[ 0.096000] [0000168c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.096000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.096000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 1.000000s
+[ 0.096000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.096000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.096000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.096000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.096000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.096000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.096000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 28
+[ 0.096000] [0000168c] libusbx: debug [libusb_release_interface] interface 0
+[ 0.096000] [0000168c] libusbx: debug [auto_release] auto-released interface 0
+[ 0.096000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D68DB0
+[ 0.096000] [0000168c] libusbx: debug [ctrl_transfer_cb] actual_length=28
+[ 0.096000] [0000168c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.096000] [0000168c] libusbx: debug [libusb_claim_interface] interface 1
+[ 0.097000] [0000168c] libusbx: warning [winusbx_claim_interface] auto-claimed interface 0 (required to claim 1 with WinUSB)
+[ 0.097000] [0000168c] libusbx: debug [winusbx_claim_interface] claimed interface 1
+[ 0.097000] [0000168c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.097000] [0000168c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 81 to interface 1
+[ 0.097000] [0000168c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 02 to interface 1
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to set PIPE_TRANSFER_TIMEOUT for control endpoint 81
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to disable SHORT_PACKET_TERMINATE for endpoint 81
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to disable IGNORE_SHORT_PACKETS for endpoint 81
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to enable ALLOW_PARTIAL_READS for endpoint 81
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to enable AUTO_CLEAR_STALL for endpoint 81
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to set PIPE_TRANSSetting up interface...
+
+Initialising protocol...
+FER_TIMEOUT for control endpoint 02
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to disable SHORT_PACKET_TERMINATE for endpoint 02
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to disable IGNORE_SHORT_PACKETS for endpoint 02
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to enable ALLOW_PARTIAL_READS for endpoint 02
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to enable AUTO_CLEAR_STALL for endpoint 02
+[ 0.097000] [0000168c] libusbx: debug [libusb_set_interface_alt_setting] interface 1 altsetting 0
+[ 0.097000] [0000168c] libusbx: debug [libusb_get_config_descriptor] index 0
+[ 0.097000] [0000168c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 81 to interface 1
+[ 0.097000] [0000168c] libusbx: debug [windows_assign_endpoints] (re)assigned endpoint 02 to interface 1
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to set PIPE_TRANSFER_TIMEOUT for control endpoint 81
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to disable SHORT_PACKET_TERMINATE for endpoint 81
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to disable IGNORE_SHORT_PACKETS for endpoint 81
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to enable ALLOW_PARTIAL_READS for endpoint 81
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to enable AUTO_CLEAR_STALL for endpoint 81
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to set PIPE_TRANSFER_TIMEOUT for control endpoint 02
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to disable SHORT_PACKET_TERMINATE for endpoint 02
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to disable IGNORE_SHORT_PACKETS for endpoint 02
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to enable ALLOW_PARTIAL_READS for endpoint 02
+[ 0.097000] [0000168c] libusbx: debug [winusbx_configure_endpoints] failed to enable AUTO_CLEAR_STALL for endpoint 02
+[ 0.102000] [0000168c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.102000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.102000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.999358s
+[ 0.102000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.102000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.102000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.102000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.102000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.102000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.102000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 0
+[ 0.102000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D68DB0
+[ 0.102000] [0000168c] libusbx: debug [ctrl_transfer_cb] actual_length=0
+[ 0.102000] [0000168c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.102000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.102000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.999679s
+[ 0.102000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.102000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.102000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.103000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.103000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.103000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.103000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 7
+[ 0.103000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D68DB0
+[ 0.103000] [0000168c] libusbx: debug [ctrl_transfer_cb] actual_length=7
+[ 0.103000] [0000168c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.103000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.103000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 1.000000s
+[ 0.103000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.103000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.103000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.103000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.103000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.103000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.103000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 0
+[ 0.103000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D68DB0
+[ 0.103000] [0000168c] libusbx: debug [ctrl_transfer_cb] actual_length=0
+[ 0.103000] [0000168c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.103000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.103000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 1.000000s
+[ 0.103000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.103000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.103000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.103000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.103000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.103000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.103000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 0
+[ 0.103000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D68DB0
+[ 0.103000] [0000168c] libusbx: debug [ctrl_transfer_cb] actual_length=0
+[ 0.103000] [0000168c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.103000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.103000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 0.999679s
+[ 0.103000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.103000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.103000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.103000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.104000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.104000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.104000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 7
+[ 0.104000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D68DB0
+[ 0.104000] [0000168c] libusbx: debug [ctrl_transfer_cb] actual_length=7
+[ 0.104000] [0000168c] libusbx: debug [winusbx_submit_control_transfer] will use interface 0
+[ 0.104000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.104000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 1.000000s
+[ 0.104000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.104000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.104000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.104000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with reventProtocol initialisation successful.
+
+Beginning session...
+s = 0000
+[ 0.104000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.104000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.104000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 0
+[ 0.104000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D68DB0
+[ 0.104000] [0000168c] libusbx: debug [ctrl_transfer_cb] actual_length=0
+[ 0.104000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 0.104000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 4 bytes
+[ 0.104000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 0.104000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 1.000000s
+[ 0.104000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.104000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.104000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.104000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.104000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 0.104000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.104000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 4
+[ 0.104000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 0.104000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=4
+[ 0.104000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 0.104000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 7 bytes
+[ 0.104000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.104000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 1.000000s
+[ 0.104000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.104000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 1000ms
+[ 0.106000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.106000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.106000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.106000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.106000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 4
+[ 0.106000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 0.106000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=4
+[ 0.106000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 0.106000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 0.106000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 0.106000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 0.106000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.106000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 0.106000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.106000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.106000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 0.106000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.106000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 0.106000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 0.106000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 0.106000] [0000168c] libusbx: debug [winusbx_submit_b
+Some devices may take up to 2 minutes to respond.
+Please be patient!
+
+Session begun.
+
+Downloading device's PIT file...
+ulk_transfer] matched endpoint 81 with interface 1
+[ 0.107000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 8 bytes
+[ 0.107000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 0.107000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 0.107000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 0.107000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 0.134000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 0.134000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 0.134000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 0.134000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 0.134000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 8
+[ 0.134000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 0.134000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=8
+[ 3.134000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.134000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.134000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.134000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.134000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.134000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.134000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.134000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.134000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.134000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.134000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.134000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.134000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.134000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.134000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 8 bytes
+[ 3.134000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.134000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.134000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.134000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.140000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.140000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.140000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.140000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.140000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 8
+[ 3.140000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.140000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=8
+[ 3.141000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.141000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.141000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.141000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.141000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.141000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.141000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.141000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.141000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.141000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.141000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.141000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.141000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.141000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.141000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 8 bytes
+[ 3.141000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.141000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.141000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.141000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.158000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.158000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.158000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.158000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.158000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 8
+[ 3.158000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.158000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=8
+[ 3.158000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.159000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.159000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.159000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.159000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.159000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.159000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.159000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.159000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.159000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.159000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.159000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.159000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.159000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.159000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.159000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.159000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.159000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.159000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.162000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.162000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.162000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.162000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.162000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.162000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.162000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.162000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.162000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.162000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.162000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.162000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.162000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.162000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.162000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.162000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.162000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.162000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.162000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.162000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.162000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.162000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.162000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.166000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.996150s
+[ 3.166000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.166000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 2997ms
+[ 3.166000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.166000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.166000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.166000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.166000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.167000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.167000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.167000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.167000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.167000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.167000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.167000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.167000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.167000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.167000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.167000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.167000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.167000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.167000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.167000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.167000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.167000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.167000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.167000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.167000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.167000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.170000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.170000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.170000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.170000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.170000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.170000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.170000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.170000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.170000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.170000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.170000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.170000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.170000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.170000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.170000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.170000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.170000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.170000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.171000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.171000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.171000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.171000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.171000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.171000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.171000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.171000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.173000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.173000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.173000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.173000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.173000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.173000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.173000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.173000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.173000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.173000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.173000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.173000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.173000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.173000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.173000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.174000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.174000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.174000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.174000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.174000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.174000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.174000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.174000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.174000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.174000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.174000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.187000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.187000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.187000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.187000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.187000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.187000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.187000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.188000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.188000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.188000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.188000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.188000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.188000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.188000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.188000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.188000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.188000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.188000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.188000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.188000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.188000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.188000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.188000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.188000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.188000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.188000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.191000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.191000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.191000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.191000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.191000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.191000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.191000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.191000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.191000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.191000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.191000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.191000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.191000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.191000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.191000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.191000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.191000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.191000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.191000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.191000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.191000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.191000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.191000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.191000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.191000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.191000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.194000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.197000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.197000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.197000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.197000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.197000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.197000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.198000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.198000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.198000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.198000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.198000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.198000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.198000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.198000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.198000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.198000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.198000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.198000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.198000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.198000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.198000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.198000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.198000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.198000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.198000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.201000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.201000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.201000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.201000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.201000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.201000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.201000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.201000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.201000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.201000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.201000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.201000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.201000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.201000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.201000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.201000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.201000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.201000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.201000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.201000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.201000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.201000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.201000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.201000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999680s
+[ 3.201000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.201000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.204000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.204000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.204000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.204000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.204000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.204000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.204000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.204000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.204000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.204000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.204000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.204000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.204000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.204000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.204000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.204000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.204000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.204000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.204000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.204000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.205000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.205000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.205000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.205000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999680s
+[ 3.205000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.205000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.207000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.207000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.207000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.207000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.207000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.207000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.207000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.207000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.207000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.207000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.207000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.207000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.207000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.208000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.208000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.208000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.208000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.208000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.208000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.208000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.208000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.208000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.208000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.208000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.208000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.208000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.210000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.210000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.210000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.210000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.210000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.210000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.210000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.210000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.210000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.211000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.211000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.211000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.211000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.211000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.211000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.211000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.211000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.211000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.211000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.211000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.211000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.211000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.211000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.211000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.211000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.211000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.214000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.214000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.214000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.214000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.214000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.214000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.214000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.214000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.214000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.214000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.214000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.214000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.214000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.214000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.214000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.214000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.214000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.214000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.214000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.214000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.214000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.214000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.214000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.214000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.214000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.214000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.217000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.217000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.217000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.217000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.217000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.217000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.217000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.217000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.217000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.217000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.217000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.217000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.217000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.217000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.217000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.217000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.217000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.217000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.217000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.217000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.217000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.217000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.217000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.217000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999680s
+[ 3.217000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.217000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.220000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.220000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.220000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.220000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.220000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.220000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.220000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.220000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.220000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.220000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.220000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.220000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.220000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.226000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.226000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.226000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.226000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.226000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.226000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.226000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.227000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.227000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.227000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.227000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999680s
+[ 3.227000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.227000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.227000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.227000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.227000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.227000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.227000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.227000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.227000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.228000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.228000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.228000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.228000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.228000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.228000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.228000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.228000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.228000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.228000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.228000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.228000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.228000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.228000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.228000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.228000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.228000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.228000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.228000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.231000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.231000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.231000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.231000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.231000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 500
+[ 3.231000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.231000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=500
+[ 3.231000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.231000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.231000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.231000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.231000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.231000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.231000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.231000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.231000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.231000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.231000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O cPIT file download successful.
+
+Entry Count: 22
+Unknown 1: 1598902083
+Unknown 2: 844251476
+Unknown 3: 30797
+Unknown 4: 19757
+Unknown 5: 19780
+Unknown 6: 0
+Unknown 7: 0
+Unknown 8: 0
+
+
+--- Entry #0 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 80
+Attributes: 2 (STL Read-Only)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 0
+Partition Block Count: 1734
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: BOOTLOADER
+Flash Filename: sboot.bin
+FOTA Filename:
+
+
+--- Entry #1 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 81
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1734
+Partition Block Count: 312
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: TZSW
+Flash Filename: tz.img
+FOTA Filename:
+
+
+--- Entry #2 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 70
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 34
+Partition Block Count: 16
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: PIT
+Flash Filename: t0.pit
+FOTA Filename:
+
+
+--- Entry #3 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 71
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 50
+Partition Block Count: 2048
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: MD5HDR
+Flash Filename: md5.img
+FOTA Filename:
+
+
+--- Entry #4 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 1
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 8192
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: BOTA0
+Flash Filename: -
+FOTA Filename:
+
+
+--- Entry #5 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 2
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 16384
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: BOTA1
+Flash Filename: -
+FOTA Filename:
+
+
+--- Entry #6 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 3
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 24576
+Partition Block Count: 40960
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: EFS
+Flash Filename: efs.img
+FOTA Filename:
+
+
+--- Entry #7 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 4
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 65536
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: m9kefs1
+Flash Filename: -
+FOTA Filename:
+
+
+--- Entry #8 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 5
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 73728
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: m9kefs2
+Flash Filename: -
+FOTA Filename:
+
+
+--- Entry #9 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 6
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 81920
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: m9kefs3
+Flash Filename: -
+FOTA Filename:
+
+
+--- Entry #10 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 7
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 90112
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: PARAM
+Flash Filename: param.bin
+FOTA Filename:
+
+
+--- Entry #11 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 8
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 106496
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: BOOT
+Flash Filename: boot.img
+FOTA Filename:
+
+
+--- Entry #12 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 9
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 122880
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: RECOVERY
+Flash Filename: recovery.img
+FOTA Filename:
+
+
+--- Entry #13 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 10
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 139264
+Partition Block Count: 131072
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: RADIO
+Flash Filename: modem.bin
+FOTA Filename:
+
+
+--- Entry #14 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 11
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 319488
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: TOMBSTONES
+Flash Filename: -
+FOTA Filename:
+
+
+--- Entry #15 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 12
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 327680
+Partition Block Count: 2801664
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: CACHE
+Flash Filename: cache.img
+FOTA Filename:
+
+
+--- Entry #16 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 13
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 3129344
+Partition Block Count: 4194304
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: SYSTEM
+Flash Filename: system.img
+FOTA Filename:
+
+
+--- Entry #17 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 14
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 7323648
+Partition Block Count: 1146880
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: HIDDEN
+Flash Filename: hidden.img
+FOTA Filename:
+
+
+--- Entry #18 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 15
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 8470528
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: OTA
+Flash Filename: -
+FOTA Filename:
+
+
+--- Entry #19 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 16
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 8486912
+Partition Block Count: 0
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: USERDATA
+Flash Filename: userdata.img
+FOTA Filename: remained
+
+
+--- Entry #20 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 17
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 270336
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: EFS2
+Flash Filename: esc_efs.img
+FOTA Filename:
+
+
+--- Entry #21 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 18
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 286720
+Partition Block Count: 32768
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: RADIO2
+Flash Filename: esc_modem.bin
+FOTA Filename:
+
+Ending session...
+ompletion with errcode 0, size 1024
+[ 3.231000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.231000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.231000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.231000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 500 bytes
+[ 3.231000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.231000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.231000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.231000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.234000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.234000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.234000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.234000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.234000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 192
+[ 3.234000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.234000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=192
+[ 3.234000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.234000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.234000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.234000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.234000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.234000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.234000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.234000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.234000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.234000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.234000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.234000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.234000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.234000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.234000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 8 bytes
+[ 3.234000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.234000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.234000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.234000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.237000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.237000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.237000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.237000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.237000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 8
+[ 3.237000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.237000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=8
+[ 3.239000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 02 with interface 1
+[ 3.239000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] writing 1024 bytes
+[ 3.239000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 4
+[ 3.239000] [0000168c] libusbx:Releasing device interface...
+
+ debug [libusb_get_next_timeout] next timeout in 2.999679s
+[ 3.239000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.239000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.239000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.239000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.239000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0004
+[ 3.239000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.239000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 1024
+[ 3.239000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.239000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=1024
+[ 3.239000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] matched endpoint 81 with interface 1
+[ 3.239000] [0000168c] libusbx: debug [winusbx_submit_bulk_transfer] reading 8 bytes
+[ 3.239000] [0000168c] libusbx: debug [usbi_add_pollfd] add fd 1 events 1
+[ 3.239000] [0000168c] libusbx: debug [libusb_get_next_timeout] next timeout in 3.000000s
+[ 3.239000] [0000168c] libusbx: debug [libusb_handle_events_timeout_completed] doing our own event handling
+[ 3.239000] [0000168c] libusbx: debug [handle_events] poll() 2 fds with timeout in 3000ms
+[ 3.250000] [0000168c] libusbx: debug [handle_events] poll() returned 1
+[ 3.250000] [0000168c] libusbx: debug [windows_handle_events] checking fd 0 with revents = 0000
+[ 3.250000] [0000168c] libusbx: debug [windows_handle_events] checking fd 1 with revents = 0001
+[ 3.250000] [0000168c] libusbx: debug [usbi_remove_pollfd] remove fd 1
+[ 3.250000] [0000168c] libusbx: debug [windows_transfer_callback] handling I/O completion with errcode 0, size 8
+[ 3.250000] [0000168c] libusbx: debug [usbi_handle_transfer_completion] transfer 002B2028 has callback 72D69010
+[ 3.250000] [0000168c] libusbx: debug [bulk_transfer_cb] actual_length=8
+[ 3.250000] [0000168c] libusbx: debug [libusb_release_interface] interface 1
+[ 3.250000] [0000168c] libusbx: debug [libusb_close]
+[ 3.250000] [0000168c] libusbx: debug [libusb_unref_device] destroy device 5.1
+[ 3.250000] [0000168c] libusbx: debug [libusb_exit]
+[ 3.250000] [0000168c] libusbx: debug [libusb_exit] destroying default context
