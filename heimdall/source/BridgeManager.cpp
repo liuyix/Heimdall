@@ -309,15 +309,20 @@ void BridgeManager::ReleaseDeviceInterface(void)
 
 bool BridgeManager::InitialiseProtocol(void)
 {
-	Interface::Print("Initialising protocol...\n");
-
+	Interface::Print("Initializing protocol...\n");
+	//return false;
 	unsigned char dataBuffer[7];
-
+	//int result;
+	//此处有可能会无法正常返回数据
 	int result = libusb_control_transfer(deviceHandle, LIBUSB_REQUEST_TYPE_CLASS, 0x22, 0x3, 0, nullptr, 0, 1000);
 
-	if (result < 0 && verbose)
-		Interface::PrintWarning("Control transfer #1 failed. Result: %d\n", result);
-
+	if (result < 0 ) {
+		if (verbose)
+		{
+			Interface::PrintWarning("Control transfer #1 failed. Result: %d\n", result);
+		}		
+		goto INITIAL_TIMEOUT;
+	}
 	memset(dataBuffer, 0, 7);
 	dataBuffer[1] = 0xC2;
 	dataBuffer[2] = 0x01;
@@ -325,18 +330,32 @@ bool BridgeManager::InitialiseProtocol(void)
 
 	result = libusb_control_transfer(deviceHandle, LIBUSB_REQUEST_TYPE_CLASS, 0x20, 0x0, 0, dataBuffer, 7, 1000);
 
-	if (result < 0 && verbose)
-		Interface::PrintWarning("Control transfer #2 failed. Result: %d\n", result);
-
+	if (result < 0 ) {
+		if (verbose)
+		{
+			Interface::PrintWarning("Control transfer #2 failed. Result: %d\n", result);
+		}		
+		goto INITIAL_TIMEOUT;
+	}
 	result = libusb_control_transfer(deviceHandle, LIBUSB_REQUEST_TYPE_CLASS, 0x22, 0x3, 0, nullptr, 0, 1000);
 
-	if (result < 0 && verbose)
-		Interface::PrintWarning("Control transfer #3 failed. Result: %d\n", result);
+	if (result < 0 ) {
+		if (verbose)
+		{
+			Interface::PrintWarning("Control transfer #3 failed. Result: %d\n", result);
+		}		
+		goto INITIAL_TIMEOUT;
+	}
 
 	result = libusb_control_transfer(deviceHandle, LIBUSB_REQUEST_TYPE_CLASS, 0x22, 0x2, 0, nullptr, 0, 1000);
 
-	if (result < 0 && verbose)
-		Interface::PrintWarning("Control transfer #4 failed. Result: %d\n", result);
+	if (result < 0 ) {
+		if (verbose)
+		{
+			Interface::PrintWarning("Control transfer #4 failed. Result: %d\n", result);
+		}		
+		goto INITIAL_TIMEOUT;
+	}
 
 	memset(dataBuffer, 0, 7);
 	dataBuffer[1] = 0xC2;
@@ -345,13 +364,23 @@ bool BridgeManager::InitialiseProtocol(void)
 
 	result = libusb_control_transfer(deviceHandle, LIBUSB_REQUEST_TYPE_CLASS, 0x20, 0x0, 0, dataBuffer, 7, 1000);
 
-	if (result < 0 && verbose)
-		Interface::PrintWarning("Control transfer #5 failed. Result: %d\n", result);
+	if (result < 0 ) {
+		if (verbose)
+		{
+			Interface::PrintWarning("Control transfer #5 failed. Result: %d\n", result);
+		}		
+		goto INITIAL_TIMEOUT;
+	}
 
 	result = libusb_control_transfer(deviceHandle, LIBUSB_REQUEST_TYPE_CLASS, 0x22, 0x2, 0, nullptr, 0, 1000);
 
-	if (result < 0 && verbose)
-		Interface::PrintWarning("Control transfer #6 failed. Result: %d\n", result);
+	if (result < 0 ) {
+		if (verbose)
+		{
+			Interface::PrintWarning("Control transfer #6 failed. Result: %d\n", result);
+		}		
+		goto INITIAL_TIMEOUT;
+	}
 
 	unsigned int attempt = 0;
 
@@ -431,14 +460,17 @@ bool BridgeManager::InitialiseProtocol(void)
 		if (verbose)
 			Interface::PrintErrorSameLine("\n");
 
-		Interface::PrintError("Protocol initialisation failed!\n\n");
+		Interface::PrintError("Protocol initialization failed!\n\n");
 		return (false);
 	}
 	else
 	{
-		Interface::Print("Protocol initialisation successful.\n\n");
+		Interface::Print("Protocol initialization successful.\n\n");
 		return (true);
 	}
+INITIAL_TIMEOUT:
+	Interface::PrintError("Protocol initialization failed, error: %d", result);
+	return false;
 }
 
 BridgeManager::BridgeManager(bool verbose, int communicationDelay)
